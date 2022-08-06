@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Box, Button, Typography, Stack, TextField} from '@mui/material';
-
+//41:17
 
 const SearchExercises = () => {
   return (
@@ -13,7 +13,7 @@ const SearchExercises = () => {
         sx={{
           input: {fontWeight: '700', border: 'none', borderRadius:'4px'},
           width: {lg:'1170px', xs: "350px"},
-          background_color: '#fff'
+          background_color: '#fff', borderRadius: "40px"
         }}
         height="76px" 
         value="" 
