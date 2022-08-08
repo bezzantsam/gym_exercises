@@ -7,6 +7,13 @@ export const exerciseOptions = {
       'X-RapidAPI-Key': 'a1eed637aemsh58e64b984be8593p1b48fcjsn655d3219ab7f',
     },
   };
+  export const youtubeOptions = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': 'a1eed637aemsh58e64b984be8593p1b48fcjsn655d3219ab7f',
+      'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
+    }
+  };
   
 //   export const youtubeOptions = {
 //     method: 'GET',
