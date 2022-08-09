@@ -13,7 +13,7 @@ const ExerciseVideos = ({exerciseVideos, name}) => {
             flexDirection: {lg: 'row'}, 
             gap: {lg: '10px', xs: '0px'}
         }}>
-            {exerciseVideos?.slice(0,2).map((item, index) => (
+            {exerciseVideos?.slice(0,3).map((item, index) => (
 
                 <a
                 key={index}
